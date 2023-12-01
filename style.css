@@ -1,0 +1,313 @@
+body {
+	margin: 0;
+	font-family: segoe UI;
+}
+
+.container {
+	width: 57%;
+	margin: auto;
+}
+
+.header-area {
+	background: #23232D;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 40px 0;
+}
+
+.header-area a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.logo-area {
+	margin-bottom: 90px;
+}
+
+.logo-area img {
+	width: 90px;
+	height: auto;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.slogn-area p {
+	font-size: 12px;
+	margin-bottom: 90px;
+}
+
+.next-section a i {
+	font-size: 12px;
+	height: 12px;
+	width: 12px;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.next-section a i:hover {
+	color: #FF5733;
+}
+
+
+
+
+
+/*** about-area ***/
+
+.about-area {
+	overflow: hidden;
+	background: url('images/background.png');
+	background-size: cover;
+	padding: 60px;
+}
+
+.content {
+	width: 90%;
+	margin: auto;
+}
+
+.content p{
+	font-size: 22px;
+	color: #666666;
+	text-align: center;
+}
+
+.about-area h2 {
+	color: #464B4F;
+}
+
+.about-us {
+	overflow: hidden;
+}
+
+.col-1-3 {
+	width: 31.33%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+}
+
+.col-1-3 h4 {
+	color: #666666;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.col-1-3 p {
+	font-size: 12px;
+	color: #CCCCCC;
+}
+
+
+
+
+
+/*** portfolio-area ***/
+
+.portfolio-area {
+	background: #23232D;
+	overflow: hidden;
+	color: #FFFFFF;
+	padding: 30px;
+}
+
+.portfolio-area h2 {
+	margin-bottom: 20px;
+}
+
+.work-cetegory{
+	margin-bottom: 30px;
+}
+
+.work-cetegory ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.work-cetegory ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+.work-cetegory ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 11px;
+	display: inline-block;
+	border-bottom: 2px solid transparent;
+	padding: 3px 0;
+}
+
+.work-cetegory ul li a:hover {
+	border-bottom: 2px solid #7C77C9;
+}
+
+.work-cetegory .curent a {
+	border-bottom: 2px solid #7C77C9;
+}
+
+.col-1-3 img {
+	width: 100%;
+	height: auto;
+}
+
+.work-colom {
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.work-colom a {
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.work-colom h3 {
+	margin-bottom: 5px;
+}
+
+.work-colom .col-1-3 {
+	margin-bottom: 20px;
+}
+
+.button {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.button a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: capitalize;
+	background: #7C77C9;
+	border-radius: 5px;
+	padding: 10px 30px;
+	font-size: 12px;
+}
+
+
+
+
+/*** photography-area ***/
+
+.photography-area {
+	padding: 15px 0;
+	background-image: url('images/background.png');
+	background-size: cover;
+}
+
+.photography-area h2 {
+	color: #464B4F;
+	margin-bottom: 10px;
+}
+
+.photography-area p {
+	font-size: 20px;
+	color: #666666;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+
+.photo-gallery {
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.photo-gallery .col-1-3 {
+	margin-bottom: 10px;
+}
+
+
+
+
+/*** subscribe-area ***/
+
+.subscribe-area {
+	background-color: #23232D;
+	padding: 170px 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.subscribe-area p {
+	font-size: 12px;
+	margin: 30px 0;
+}
+
+.infinite img {
+	width: 60px;
+	height: auto;
+}
+
+.input-area form input {
+	padding: 7px 30px;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	font-family: segoe UI;
+}
+
+.input-area form input[type="text"] {
+	color: #666666;
+	margin-right: 5px;
+}
+
+.input-area form input[type="submit"] {
+	background: #7C77C9;
+	color: #FFFFFF;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+
+
+
+/*** social-area ***/
+
+.footer-area {
+	background-image: url('images/background.png');
+	background-size: cover;
+	padding: 60px 0;
+}
+
+.social-area {
+	margin-bottom: 40px;
+}
+
+.social-area ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
+.social-area ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+.social-area ul li a {
+	color: #CCCCCC;
+	font-size: 25px;
+}
+
+.copyright-area {
+	text-align: center;
+}
+
+.copyright-area p {
+	text-transform: capitalize;
+	font-size: 12px;
+	color: #666666;
+}
